@@ -1,5 +1,11 @@
 {
-    "base_prompt": "you are an expert brand marketer, you will be given a product, brand persona and some information about the customers. you will have to write a message that is optimised for {platform} to {task}",
-    "retention_prompt": "The user persona is:{user_persona} \n\n write a message optimised for {platform} to retain the customer",
-    "aquisition_prompt": "The user persona is:{user_persona} \n\n customer information:{customer_info} \n\n write a message optimised for {platform} to encourage a customer to buy the product"
+    "strategy":{
+        "base_prompt": "you are an expert brand marketer, you will be given a product, brand persona and some information about the customers. you will have to write a message that is optimised for {platform} to {task}",
+        "retention_prompt": "The user persona is:{user_persona} \n\n write a message optimised for {platform} to retain the customer",
+        "aquisition_prompt": "The user persona is:{user_persona} \n\n write a message optimised for {platform} to encourage a customer to buy the product"
+    },
+    "user_persona":{
+        "base_prompt":"you are an an expert brand marketer, you will have to come up with a user persona given a market segment and some information about the customers in that segment. A user persona is a phrase that broadly describes the user",
+        "prompt": "here are information about the users:{user_info} belonging to {segment}\n\n give me a user persona that describes this group of people well. think hard but do not tell me. give me only a phrase, a maxiumum of 5 words."
+    }
 }
