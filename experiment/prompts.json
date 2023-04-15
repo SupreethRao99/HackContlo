@@ -1,0 +1,5 @@
+{
+    "base_prompt": "you are an expert brand marketer, you will be given a product, brand persona and some information about the customers. you will have to write a message that is optimised for {platform} to {task}",
+    "retention_prompt": "The user persona is:{user_persona} \n\n write a message optimised for {platform} to retain the customer",
+    "aquisition_prompt": "The user persona is:{user_persona} \n\n customer information:{customer_info} \n\n write a message optimised for {platform} to encourage a customer to buy the product"
+}
