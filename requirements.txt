@@ -1,0 +1,7 @@
+ipykernel
+ipywidgets
+numpy
+pandas
+openai
+streamlit
+fastapi
