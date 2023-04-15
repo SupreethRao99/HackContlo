@@ -1,7 +1,9 @@
 ipykernel
 ipywidgets
+pandas < 2.0.0
 numpy
-pandas
 openai
 streamlit
 fastapi
+
+scikit-learn
