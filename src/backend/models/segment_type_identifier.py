@@ -7,7 +7,7 @@ class TypeSegmentor:
         self.columns = [col.lower() for col in dataframe_columns]
         self.types = defaultdict(list)
         
-        self.json_path = "./configs/config.json"
+        self.json_path = "src/backend/configs/config.json"
         
     def read_types(self, json_path:str):
         

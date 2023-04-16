@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import os
 
 from .segment_type_identifier import AutoTypeFeatureSelector
 from .cluster_segments import SegmentClusterer
@@ -31,7 +32,10 @@ class AutoSegmentor:
 
         #what attributes to generate segment-persona by -- increase list after PoC
         default_attributes = None
-        with open("./configs/attribute_fields.json", "r") as file:
+
+        print(os.listdir())
+
+        with open("src/backend/configs/attribute_fields.json", "r") as file:
             default_attributes = json.load(file)
 
         self.default_attribute_fields = default_attributes["default_attributes"]
