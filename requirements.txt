@@ -1,0 +1,14 @@
+ipykernel
+ipywidgets
+pandas < 2.0.0
+numpy
+openai
+streamlit
+fastapi
+
+scikit-learn
+matplotlib
+seaborn
+
+openpyxl
+xlrd

@@ -1,0 +1,12 @@
+{
+    "default_attributes" : {
+
+        "Demographic" : ["age", "income"],
+        "Geographic" : ["lat", "long"],
+        "Psychographic" : ["personality", "attitude"],
+        "Technographic" : ["mobile_use", "desktop_use"],
+        "Behavioral" : ["tendencies", "frequent_actions"],
+        "Needs-based" : ["specific_need", "customer_group"],
+        "Value-based" : ["income", "spent"]
+    }
+}
