@@ -7,3 +7,5 @@ streamlit
 fastapi
 
 scikit-learn
+matplotlib
+seaborn
