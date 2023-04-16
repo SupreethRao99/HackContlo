@@ -4,7 +4,7 @@ from collections import defaultdict
 class TypeSegmentor:
     def __init__(self,
                  dataframe_columns:list,
-                 json_path:str="./config.json"):
+                 json_path:str="/Users/supreeth/HackContlo/segmentation/config.json"):
         
         self.columns = [col.lower() for col in dataframe_columns]
         self.types = defaultdict(list)

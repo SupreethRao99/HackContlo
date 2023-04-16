@@ -35,7 +35,7 @@ class AutoSegmentor:
 
         #what attributes to generate segment-persona by -- increase list after PoC
         default_attributes = None
-        with open("attribute_fields.json", "r") as file:
+        with open("/Users/supreeth/HackContlo/segmentation/attribute_fields.json", "r") as file:
             default_attributes = json.load(file)
 
         self.default_attribute_fields = default_attributes["default_attributes"]
