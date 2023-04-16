@@ -4,7 +4,7 @@ import openai
 openai.api_key = "sk-GkAJMmnW9lI7QeanDqckF6Z8cy7hKp8KdHJjYF9O"
 
 class PersonaGenerator:
-    def __init__(self, prompt_file:str="./configs/prompts.json") -> None:
+    def __init__(self, prompt_file:str="src/backend/configs/prompts.json") -> None:
         with open(prompt_file) as f:
             self.prompts = json.load(f)
     
