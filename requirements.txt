@@ -9,3 +9,6 @@ fastapi
 scikit-learn
 matplotlib
 seaborn
+
+openpyxl
+xlrd
