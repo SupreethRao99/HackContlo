@@ -1,12 +1,8 @@
-import sys
-if "./" not in sys.path:
-    sys.path.extend(["./", "../", ".../"])
-
 import json
 import pandas as pd
 
-from segmentation.segment_type_identifier import AutoTypeFeatureSelector
-from segmentation.cluster_segments import SegmentClusterer
+from .segment_type_identifier import AutoTypeFeatureSelector
+from .cluster_segments import SegmentClusterer
 
 class AutoSegmentor:
     """
@@ -35,7 +31,7 @@ class AutoSegmentor:
 
         #what attributes to generate segment-persona by -- increase list after PoC
         default_attributes = None
-        with open("/Users/supreeth/HackContlo/segmentation/attribute_fields.json", "r") as file:
+        with open("./configs/attribute_fields.json", "r") as file:
             default_attributes = json.load(file)
 
         self.default_attribute_fields = default_attributes["default_attributes"]
@@ -124,7 +120,8 @@ class AutoSegmentor:
 
         #return the results as a list of dictionaries, they will become inputs to an LLM for segment persona generation
         return self.generate_llm_inputs_per_segment()
-    
+
+
 # if __name__ == "__main__":
 
 #     df = pd.read_csv("data/cleaned_marketing_campaign.csv")

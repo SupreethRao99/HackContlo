@@ -2,7 +2,7 @@
     "strategy":{
         "base_prompt": "you are an expert brand marketer specialising in understanding user segments and developing strategies to increase KPI's like brand loyalty, repeat purchases etc. you will be given a brand persona and some information about the customers. you will have develop strategies/incentives to measureable increase the relevant KPI's",
         "retention_prompt": "The user persona is:{user_persona} and the market segment type is {segmention_type} \n\n write a marketing strategy to increase your KPI's",
-        "aquisition_prompt": "The user persona is:{user_persona} \n\n write a message optimised for {platform} to encourage a customer to buy the product"
+        "aquisition_prompt": "The market segment type is {segmention_type} and the product is {product}\n\n write a marketing strategy to increase your KPI's as well as aquire new customers"
     },
     "user_persona":{
         "base_prompt":"you are an an expert brand marketer, you will have to come up with a user persona given a market segment and some information about the customers in that segment. A user persona is a phrase that broadly describes the user/type of user that is the target audience for a brand",

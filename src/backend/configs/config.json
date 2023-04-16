@@ -1,0 +1,80 @@
+{
+    "Demographic": [
+        "age",
+        "gender",
+        "income",
+        "education",
+        "marital_status"
+    ],
+    "Geographic": [
+        "country",
+        "state",
+        "city",
+        "town"
+    ],
+    "Psychographic": [
+        "personality",
+        "attitude",
+        "values",
+        "interest"
+    ],
+    "Technographic": [
+        "mobile_use",
+        "desktop_use",
+        "apps",
+        "software"
+    ],
+    "Behavioral": [
+        "tendencies",
+        "frequent_actions",
+        "feature_use",
+        "product_use",
+        "habits"
+    ],
+    "Needs-based": [
+        "product",
+        "service",
+        "specific_need",
+        "specific_customer",
+        "customer_group"
+    ],
+    "Value-based": [
+        "acceptedcmp4",
+        "teenhome",
+        "num_purchase",
+        "mntfishproducts",
+        "mntgoldprods",
+        "income",
+        "marital_status",
+        "acceptedcmp1",
+        "mntsweetproducts",
+        "numcatalogpurchases",
+        "spent",
+        "numwebvisitsmonth",
+        "response",
+        "living_with",
+        "acceptedcmp5",
+        "acceptedcmp3",
+        "complain",
+        "acceptedcmp2",
+        "family_size",
+        "is_parent",
+        "dt_customer",
+        "mntmeatproducts",
+        "numdealspurchases",
+        "z_revenue",
+        "children",
+        "year_birth",
+        "education",
+        "id",
+        "average_price",
+        "recency",
+        "numstorepurchases",
+        "mntfruits",
+        "z_costcontact",
+        "numwebpurchases",
+        "age",
+        "mntwines",
+        "kidhome"
+    ]
+}

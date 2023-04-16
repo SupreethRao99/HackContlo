@@ -2,14 +2,12 @@ import json
 from collections import defaultdict
 
 class TypeSegmentor:
-    def __init__(self,
-                 dataframe_columns:list,
-                 json_path:str="/Users/supreeth/HackContlo/segmentation/config.json"):
+    def __init__(self, dataframe_columns:list):
         
         self.columns = [col.lower() for col in dataframe_columns]
         self.types = defaultdict(list)
         
-        self.json_path = json_path
+        self.json_path = "./configs/config.json"
         
     def read_types(self, json_path:str):
         
@@ -41,6 +39,7 @@ class TypeSegmentor:
     
     def get_output(self) -> dict:
         return self.get_best_type_match()
+
 
 class AutoTypeFeatureSelector(TypeSegmentor):
     
