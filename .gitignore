@@ -132,3 +132,7 @@ dmypy.json
 contlo
 
 .DS_Store
+
+#config files to hide keys etc
+config.json
+attribute_fields.json
